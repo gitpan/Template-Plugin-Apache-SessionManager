@@ -1,0 +1,42 @@
+Description
+-----------
+This is version 0.01 of Template::Plugin::Apache::SessionManager
+
+This package is a Template Toolkit plugin that provides an interface to 
+Apache::SessionManager module wich provide a session manager for a web application.
+This modules allows you to integrate a transparent session management into your
+TT2 template documents.
+
+See perldoc Template::Plugin::Apache::SessionManager for module documentation and use
+
+Changes from previous version
+-----------------------------
+
+This is a first (alpha) release. 
+
+Installation
+------------
+In order to install and use this package you will need Perl version
+5.005 or better.  Installation as usual:
+ 
+   % perl Makefile.PL
+   % make
+   % make test
+   % su
+     Password: *******
+   % make install
+
+Prerequisites
+-------------
+- mod_perl (of course) >= 1.24 with the appropriate call-back hooks (PERL_TRANS=1)
+- Apache::SessionManager >= 0.04 is required
+     (http://www.cpan.org/modules/by-module/Apache/Apache-Session-x.yy.tar.gz)
+- Template Toolikt >= 2.07 is required.
+     (http://www.cpan.org/modules/by-module/Template/Template-Toolkit-x.yy.tar.gz)
+  
+Copyright (C) 2001-2003 Enrico Sorcinelli. All rights reserved.
+This program is free software; you can redistribute it 
+and/or modify it under the same terms as Perl itself. 
+
+Author: Enrico Sorcinelli <enrico@sorcinelli.it>
+
